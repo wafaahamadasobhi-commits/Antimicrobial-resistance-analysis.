@@ -1,10 +1,17 @@
-# DEPI-Graduation-Project
-A data-driven graduation project turning raw data into actionable insights through analysis and interactive visualization.
+## 📁 Project Structure & Data Pipeline
 
+Here is an overview of the dataset organization and database files included in this repository:
 
-## Dataset
+* **`Original Data/` (Raw Data)** 
+  Contains the raw, unprocessed data as initially downloaded, without any cleaning or transformation applied.
 
-This project uses the NCBI Pathogen Detection dataset to analyze antimicrobial resistance patterns.
+* **`Data After Cleaning & Normalization/`** 
+  Contains the cleaned and normalized datasets split into **9 relational tables**. This is the primary refined data ready for analysis.
 
-- **Raw Dataset (Before Cleaning):** [https://drive.google.com/file/d/1Q09l5Jwlj_CtzAXol6bD34kDABtdlZQR/view)
-- **Cleaned Dataset (After Cleaning):** [https://drive.google.com/drive/folders/1LOQB-809eh1UBUQf5KkpHZje-bt-RqBB?usp=sharing)
+* **`Database Backup/`** 
+  Contains the database backup file (`.bak` / SQL dump) prepared for direct import and analysis in **Power BI**.
+
+* **`Visualization/`** 
+  Stores all dashboard assets, reports, and visualization files created in **Tableau** and **Power BI**.
+
+(https://aunedu-my.sharepoint.com/:f:/g/personal/mostafa_abdulrahim274_med_aun_edu_eg/IgAZ009SsofZQZ3NjVC6IwYcAW53kFcCPR0l8BVtXjqLh4E?e=MFjZMc)
